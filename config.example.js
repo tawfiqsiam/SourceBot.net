@@ -2,11 +2,11 @@
 
 module.exports = {
     mongo: {
-        ip: "",
-        user: "",
-        pwd: "",
+        ip: "176.65.24.238",
+        user: "starzz",
+        pwd: "#Zz0123456",
         port: "27017",
-        db: "sourcebot",
+        db: "OwO Family",
         collections: {
             userData: "UserData",
             incidents: "IncidentReports"
@@ -17,13 +17,13 @@ module.exports = {
         amount: 10 // amount of requests per {time}
     },
     PORT: 1234,
-    bot_token: "", // to get user's discord data.
+    bot_token: "Njk3MTI4MjUwNjM1MTkwMzAy.Xpvj4A.ltWj7JzhKc7v_B3xYzYf4PsIHCg", // to get user's discord data.
     autodeploy: {
         branch: "production", // branch to auto deploy
         secret: "" // secret keywords for github's webhooks
     },
     underConstruction: false,
     discord: {
-        guild_id: "" // ID of the guild
+        guild_id: "636421475485614084" // ID of the guild
     }
 };
