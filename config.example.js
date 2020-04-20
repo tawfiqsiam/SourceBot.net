@@ -6,7 +6,7 @@ module.exports = {
         user: "starzz",
         pwd: "#Zz0123456",
         port: "27017",
-        db: "OwO Family",
+        db: "Cluster0",
         collections: {
             userData: "UserData",
             incidents: "IncidentReports"
