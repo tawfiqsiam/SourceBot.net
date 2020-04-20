@@ -3,7 +3,7 @@
 module.exports = {
   apps : [{
     // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
-    name: 'Sourcebot',
+    name: 'OwO family',
     script: './bin/www',
     instances: 1,
     autorestart: true,
@@ -22,7 +22,7 @@ module.exports = {
       user : '', // Username to log in
       host : '', // Host/IP of website server
       ref  : 'origin/production', // origin/<branch>
-      repo : 'https://github.com/The-SourceCode/SourceBot.net.git',
+      repo : 'https://github.com/tawfiqsiam/SourceBot.net.git',
       path : '/home/sourcebot/production', // Path to deploy the site
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
