@@ -2,9 +2,9 @@
 
 module.exports = {
     mongo: {
-        ip: "",
-        user: "",
-        pwd: "",
+        ip: "176.65.24.238/32",
+        user: "starzz",
+        pwd: "#Zz0123456",
         port: "27017",
         db: "sourcebot",
         collections: {
@@ -17,13 +17,13 @@ module.exports = {
         amount: 10 // amount of requests per {time}
     },
     PORT: 1234,
-    bot_token: "", // to get user's discord data.
+    bot_token: "Njk3MTI4MjUwNjM1MTkwMzAy.Xpvj4A.ltWj7JzhKc7v_B3xYzYf4PsIHCg", // to get user's discord data.
     autodeploy: {
         branch: "production", // branch to auto deploy
-        secret: "" // secret keywords for github's webhooks
+        secret: "https://discordapp.com/api/webhooks/701912989288366110/lPb75pjnrdIdaqwapfwfDW26knPgZLvkbRnD4RFb7rWnhT9UK_4YPGlJ_AuWZciq4Gnf" // secret keywords for github's webhooks
     },
     underConstruction: false,
     discord: {
-        guild_id: "" // ID of the guild
+        guild_id: "636421475485614084" // ID of the guild
     }
 };
